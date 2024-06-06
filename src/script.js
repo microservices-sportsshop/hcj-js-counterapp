@@ -1,29 +1,31 @@
-const count = document.querySelector(".count");
-const buttons = document.querySelector(".buttons");
+document.addEventListener("DOMContentLoaded", () => {
+    const count = document.querySelector(".count");
+    const buttons = document.querySelector(".buttons");
 
-buttons.addEventListener("click", (e) => {
-    console.log(e.target.classList);
+    buttons.addEventListener("click", (e) => {
+        if (e.target.closest("button")) {
+            const button = e.target.closest("button");
 
-    if (e.target.classList.contains("add")) {
-        count.innerHTML++;
-    }
-    if (e.target.classList.contains("subtract")) {
-        count.innerHTML--;
-    }
-    if (e.target.classList.contains("reset")) {
-        count.innerHTML = 0;
-    }
+            if (button.classList.contains("add")) {
+                count.textContent = parseInt(count.textContent) + 1;
+            } else if (button.classList.contains("subtract")) {
+                count.textContent = parseInt(count.textContent) - 1;
+            } else if (button.classList.contains("reset")) {
+                count.textContent = 0;
+            }
 
-    setColor();
+            setColor();
+        }
+    });
+
+    function setColor() {
+        const currentCount = parseInt(count.textContent);
+        if (currentCount > 0) {
+            count.style.color = "yellow";
+        } else if (currentCount < 0) {
+            count.style.color = "orangered";
+        } else {
+            count.style.color = "#fff";
+        }
+    }
 });
-
-function setColor() {
-    if (count.innerHTML > 0) {
-        count.style.color = "yellow";
-    } else if (count.innerHTML < 0) {
-        count.style.color = "orangered";
-    } else {
-        count.style.color = "#fff";
-    }
-}
-
