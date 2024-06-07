@@ -9,6 +9,9 @@
   --color-sec: #db6400;
   --grey: #eee;
   --dark-grey: #222831;
+  --yellow: yellow;
+  --orangered: orangered;
+  --green: green;
 }
 
 * {
@@ -75,7 +78,7 @@ img {
 }
 
 button.subtract {
-  background-color: orangered;
+  background-color: var(--orangered);
 }
 
 button.reset {
@@ -84,5 +87,5 @@ button.reset {
 }
 
 button.add {
-  background-color: green;
+  background-color: var(--green);
 }
