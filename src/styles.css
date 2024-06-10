@@ -6,7 +6,10 @@
   --blue: #31326f;
   --light-blue: #005490;
   --light-blue-border: #5cb5f4;
+  --light-blue-variation: #337ab7;
   --color-primary: #9d0191;
+  --light-purple: #d4b5ff;
+  --light-grey-blue: #e7f3f8;
   --color-sec: #db6400;
   --grey: #eee;
   --dark-grey: #222831;
@@ -43,7 +46,8 @@ body {
   width: 42rem;
   border: 1px solid var(--light-blue-border);
   padding: 1rem;
-  background-color: var(--light-blue);
+  /* background-color: var(--light-blue); */
+  background-color: var(--light-purple);
   color: var(--white);
   text-align: center;
   border-radius: 5px;
@@ -71,11 +75,11 @@ body {
 }
 
 button.subtract {
-  background-color: var(--orangered);
+  background-color: var(--color-sec);
 }
 
 button.reset {
-  background-color: var(--white);
+  background-color: var(--grey);
   color: var(--black);
 }
 
