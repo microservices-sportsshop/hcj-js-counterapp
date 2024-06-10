@@ -29,15 +29,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-p {
-  font-size: 1.6rem;
-  line-height: 1.5;
-}
-
-img {
-  width: 100%;
-}
-
 .container {
   max-width: 900px;
   margin: 0 auto;
