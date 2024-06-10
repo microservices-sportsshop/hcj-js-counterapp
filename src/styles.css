@@ -6,13 +6,21 @@
   --blue: #31326f;
   --light-blue: #005490;
   --light-blue-border: #5cb5f4;
+  --light-blue-variation: #337ab7;
   --color-primary: #9d0191;
+  --light-purple: #d4b5ff;
+  --light-grey-blue: #e7f3f8;
   --color-sec: #db6400;
   --grey: #eee;
   --dark-grey: #222831;
   --yellow: yellow;
   --orangered: orangered;
   --green: green;
+  --light-coral: #f8d7da;
+  --soft-mint: #e0f7fa;
+  --peach: #ffe5b4;
+  --lavender: #e6e6fa;
+  --light-beige: #f5f5dc;
 }
 
 * {
@@ -27,15 +35,6 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-}
-
-p {
-  font-size: 1.6rem;
-  line-height: 1.5;
-}
-
-img {
-  width: 100%;
 }
 
 .container {
@@ -80,11 +79,11 @@ img {
 }
 
 button.subtract {
-  background-color: var(--orangered);
+  background-color: var(--color-sec);
 }
 
 button.reset {
-  background-color: var(--white);
+  background-color: var(--grey);
   color: var(--black);
 }
 
