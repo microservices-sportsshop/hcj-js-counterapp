@@ -8,6 +8,7 @@
   --color-sec: #db6400;
   --grey: #eee;
   --green: green;
+  --semi-transparent-dark-blue: rgba(1, 54, 95, 0.9);
 }
 
 * {
@@ -42,10 +43,10 @@ body {
   color: var(--white);
   text-align: center;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(1, 54, 95, 0.9);
+  box-shadow: 0 0 5px var(--semi-transparent-dark-blue);
 }
 
-.counter-div > * {
+.counter-div>* {
   margin-bottom: 2rem;
 }
 
