@@ -5,9 +5,9 @@
   --black: #1c2b2d;
   --light-blue: #005490;
   --light-blue-border: #5cb5f4;
-  --color-secondary: #db6400;
-  --grey: #eee;
-  --green: green;
+  --color-secondary: #db6400; /* Color for subtract button */
+  --grey: #eee; /* Color for reset button */
+  --green: green; /* Color for add button */
   --semi-transparent-dark-blue: rgba(1, 54, 95, 0.9);
 }
 

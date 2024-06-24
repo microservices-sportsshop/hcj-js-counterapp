@@ -21,11 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
     function setColor() {
         const currentCount = parseInt(count.textContent);
         if (currentCount > 0) {
-            count.style.color = "yellow";
+            count.style.color = "var(--green)"; // Matching color with add button
         } else if (currentCount < 0) {
-            count.style.color = "orangered";
+            count.style.color = "var(--color-secondary)"; // Matching color with subtract button
         } else {
-            count.style.color = "#fff";
+            count.style.color = "var(--grey)"; // Matching color with reset button
         }
     }
 });
