@@ -5,7 +5,7 @@
   --black: #1c2b2d;
   --light-blue: #005490;
   --light-blue-border: #5cb5f4;
-  --color-sec: #db6400;
+  --color-secondary: #db6400;
   --grey: #eee;
   --green: green;
   --semi-transparent-dark-blue: rgba(1, 54, 95, 0.9);
@@ -67,7 +67,7 @@ body {
 }
 
 button.subtract {
-  background-color: var(--color-sec);
+  background-color: var(--color-secondary);
 }
 
 button.reset {
