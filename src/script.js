@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (currentCount < 0) {
             count.style.color = "var(--color-secondary)"; // Matching color with subtract button
         } else {
-            count.style.color = "var(--grey)"; // Matching color with reset button
+            count.style.color = "var(--gray)"; // Matching color with reset button
         }
     }
 });
